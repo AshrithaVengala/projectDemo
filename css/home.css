@@ -1,0 +1,138 @@
+.body-home {
+  /* background: url('../img/bg_home.jpg') no-repeat center center fixed; */
+  background-size: cover;
+  -o-background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3e4e84), to(#c3d0fe));
+  background-image: linear-gradient(#3e4e84, #c3d0fe);
+}
+
+span {
+  color: red;
+}
+
+h1 {
+  color: #091a5a;
+}
+
+.carousel-caption p {
+  color: #091a5a;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.static-top.mb-5.shadow {
+  background: #091a5a !important;
+  /* color: yellow; */
+  /* border-bottom: 2px solid #eeee0b; */
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+a.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: yellow;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-body {
+  background: #091a5a;
+  border: 3px solid yellow;
+}
+
+.footer {
+  background-color: #131212;
+  padding-top: 9px;
+  padding-bottom: 1px;
+  color: #ccc;
+}
+
+.carousel-caption {
+  bottom: 14.25rem;
+}
+
+.btn-form {
+  background: #091a5a;
+  border: 2px solid yellow;
+  color: yellow;
+  font-weight: 400;
+}
+
+.btn-form:hover {
+  color: #fff;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  margin-left: 9px;
+}
+
+img.logo {
+  width: 200px;
+}
+
+.block-content {
+  background: #050e2f;
+  padding: 34px 0px;
+  /* align-content: center; */
+  color: #fff;
+  border-radius: 8px 66px;
+  text-align: center;
+  margin: 42px 6px;
+  margin-top: 0px;
+}
+
+.modal-dialog {
+  min-width: 764px;
+}
+
+.table > :not(caption) > * > * {
+  background-color: #0a1130;
+  color: #fff;
+}
+
+.appoint-bg {
+  background: #acc7de;
+}
+
+.footer-m {
+  margin-top: 27em;
+}
+
+.top-m {
+  margin-top: 8rem !important;
+}
+
+table#doctorTable {
+  /* color: #000; */
+  border: 3px solid #5f98bd;
+}
+
+.navbar-light .navbar-toggler {
+  background: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption p {
+    font-size: 15px !important;
+  }
+  .carousel-caption h1 {
+    font-size: 17px !important;
+  }
+  .carousel-caption {
+    bottom: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-caption {
+    bottom: -0.75rem !important;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,147 @@
+$yellow:yellow;
+$white: #fff;
+$blue: #091a5a;
+$green:green;
+$fontWeight: 400;
+$fontSize: 25px;
+.body-home {
+    /* background: url('../img/bg_home.jpg') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: linear-gradient(#3e4e84, #c3d0fe);
+}
+span{
+    color:red;
+}
+
+h1 {
+    color: $blue;
+}
+
+.carousel-caption p {
+    color: $blue;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.static-top.mb-5.shadow {
+    background: #091a5a !important;
+    /* color: yellow; */
+    /* border-bottom: 2px solid #eeee0b; */
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $white;
+}
+
+a.navbar-brand {
+    color: $white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $yellow;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-body {
+    background: $blue;
+    border: 3px solid $yellow;
+}
+
+.footer {
+    background-color: #131212;
+    padding-top: 9px;
+    padding-bottom: 1px;
+    color: #ccc;
+}
+
+.carousel-caption {
+    bottom: 14.25rem;
+}
+
+.btn-form {
+    background: #091a5a;
+    border: 2px solid $yellow;
+    color: $yellow;
+    font-weight: 400;
+}
+
+.btn-form:hover {
+    color: $white;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    margin-left: 9px;
+}
+
+img.logo {
+    width: 200px;
+}
+
+// .overlay-block {
+//     background: rgb(33 27 27 / 90%);
+//     opacity: 0.5;
+// }
+.block-content {
+    background: #050e2f;
+    padding: 34px 0px;
+    /* align-content: center; */
+    color: $white;
+    border-radius: 8px 66px;
+    text-align: center;
+    margin: 42px 6px;
+    margin-top: 0px;
+}
+
+.modal-dialog {
+    min-width: 764px;
+}
+
+.table>:not(caption)>*>* {
+    background-color: #0a1130;
+    color: #fff;
+}
+
+.appoint-bg {
+    background: #acc7de
+}
+
+.footer-m {
+    margin-top: 27em;
+}
+
+.top-m {
+    margin-top: 8rem!important;
+}
+
+table#doctorTable {
+    /* color: #000; */
+    border: 3px solid #5f98bd;
+}
+
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-caption p {
+        font-size: 15px !important;
+    }
+    .carousel-caption h1 {
+        font-size: 17px !important;
+    }
+    .carousel-caption {
+        bottom: 0rem !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-caption {
+        bottom: -0.75rem !important;
+    }
+}

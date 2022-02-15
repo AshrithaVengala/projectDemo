@@ -1,0 +1,274 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullname": "john dauson",
+      "username": "john",
+      "password": "john123",
+      "mobile": "9842191443",
+      "address": "pune"
+    },
+    {
+      "fullname": "stella Dsauza",
+      "username": "stella",
+      "password": "stella123",
+      "age": "24",
+      "mobile": "8737893221",
+      "city": "delhi",
+      "id": "tkZPDT3"
+    },
+    {
+      "fullname": "jonas cley",
+      "username": "jonas",
+      "password": "jonas123",
+      "age": "24",
+      "mobile": "7834623412",
+      "city": "hyderabad",
+      "id": "-jHO_Ry"
+    },
+    {
+      "fullname": "Allen  key",
+      "username": "allen",
+      "password": "allen123",
+      "age": "28",
+      "mobile": "8238728918",
+      "city": "delhi",
+      "id": "1I8WjPM"
+    },
+    {
+      "fullname": "Dennies Ritchie",
+      "username": "dennies",
+      "password": "dennies123",
+      "age": "28",
+      "mobile": "6956235441",
+      "city": "pune",
+      "id": "fCmBdpx"
+    },
+    {
+      "fullname": "David ",
+      "username": "david",
+      "password": "david123",
+      "age": "45",
+      "mobile": "9841236554",
+      "city": "banglore",
+      "id": "VYB9XgQ"
+    },
+    {
+      "fullname": "jack  dauson",
+      "username": "jack",
+      "password": "jack123",
+      "age": "28",
+      "mobile": "9876549879",
+      "city": "pune",
+      "id": "1pE54_V"
+    },
+    {
+      "fullname": "Aishwarya Ingle",
+      "username": "aishai",
+      "password": "aisha123",
+      "age": "23",
+      "mobile": "7823717321",
+      "city": "nwd",
+      "id": "z2RRlyJ"
+    },
+    {
+      "fullname": "Ashritha",
+      "username": "ash",
+      "password": "ash123",
+      "age": "23",
+      "mobile": "7823717399",
+      "city": "nwd",
+      "id": "Q4j4oJz"
+    },
+    {
+      "fullname": "abc",
+      "username": "abc",
+      "password": "pune123",
+      "age": "24",
+      "mobile": "1234567898",
+      "city": "pune",
+      "id": "GlVuuK3"
+    },
+    {
+      "fullname": "bhagyashree",
+      "username": "bhagya",
+      "password": "bhagya123",
+      "age": "26",
+      "mobile": "7823717321",
+      "city": "pune",
+      "id": "XzSam10"
+    },
+    {
+      "fullname": "nicolas",
+      "username": "nicolas",
+      "password": "nic123",
+      "age": "56",
+      "mobile": "9876549879",
+      "city": "pune",
+      "id": "IIWqe11"
+    },
+    {
+      "fullname": "barak obama",
+      "username": "obama",
+      "password": "obama123",
+      "age": "50",
+      "mobile": "9387466288",
+      "city": "new york",
+      "id": "FmgqGdZ"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Thomas",
+      "Specialisation": "Cardiologist",
+      "start": "2022-02-08T10:48",
+      "end": "2022-03-09T10:48",
+      "username": "thomas",
+      "password": "thomas123",
+      "slots": [
+        "9AM-12PM",
+        "2PM-5PM"
+      ],
+      "status": [
+        "free",
+        "booked"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Wilson",
+      "Specialisation": "Orthopedician",
+      "start": "2022-02-08T10:48",
+      "end": "2022-03-09T10:48",
+      "username": "wilson",
+      "password": "wilson123",
+      "slots": [
+        "11AM - 2PM",
+        "1PM-3PM"
+      ],
+      "status": [
+        "free",
+        "booked"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "James",
+      "Specialisation": "Dermetologist",
+      "start": "2022-02-08T10:48",
+      "end": "2022-03-09T10:48",
+      "username": "james",
+      "password": "james123",
+      "slots": [
+        "1PM - 4PM",
+        "5PM-9PM"
+      ],
+      "status": [
+        "free",
+        "booked"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "pId": "tkZPDT3",
+      "pName": "stella Dsauza",
+      "dId": "1",
+      "date": "2022-02-09",
+      "time": "9AM-12PM",
+      "status": "success",
+      "id": "892"
+    },
+    {
+      "pId": "GlVuuK3",
+      "pName": "abc",
+      "dId": "2",
+      "date": "2022-02-17",
+      "time": "1PM-3PM",
+      "status": "pending",
+      "id": "100"
+    },
+    {
+      "pId": "GlVuuK3",
+      "pName": "abc",
+      "dId": "3",
+      "date": "2022-02-18",
+      "time": "5PM-9PM",
+      "status": "pending",
+      "id": "101"
+    },
+    {
+      "pId": "GlVuuK3",
+      "pName": "abc",
+      "dId": "1",
+      "date": "2022-02-16",
+      "time": "9AM-12PM",
+      "status": "success",
+      "id": "105"
+    },
+    {
+      "pId": "tkZPDT3",
+      "pName": "stella Dsauza",
+      "dId": "2",
+      "date": "2022-02-15",
+      "time": "11AM - 2PM",
+      "status": "pending",
+      "id": "110"
+    },
+    {
+      "pId": "1",
+      "pName": "john dauson",
+      "dId": "1",
+      "date": "2022-02-16",
+      "time": "2PM-5PM",
+      "status": "pending",
+      "id": "btB_oFF"
+    },
+    {
+      "pId": "tkZPDT3",
+      "pName": "stella Dsauza",
+      "dId": "2",
+      "date": "2022-02-16",
+      "time": "11AM - 2PM",
+      "status": "pending",
+      "id": "JHtymxK"
+    },
+    {
+      "pId": "1",
+      "pName": "john dauson",
+      "dId": "2",
+      "date": "2022-02-15",
+      "time": "11AM - 2PM",
+      "status": "pending",
+      "id": "v_laCpD"
+    },
+    {
+      "pId": "1",
+      "pName": "john dauson",
+      "dId": "3",
+      "date": "2022-02-17",
+      "time": "1PM - 4PM",
+      "status": "pending",
+      "id": "kvjPvOT"
+    },
+    {
+      "pId": "tkZPDT3",
+      "pName": "stella Dsauza",
+      "dId": "1",
+      "date": "2022-02-15",
+      "time": "9AM-12PM",
+      "status": "pending",
+      "id": "-H29xhm"
+    },
+    {
+      "pId": "1",
+      "pName": "john dauson",
+      "dId": "1",
+      "date": "2022-02-15",
+      "time": "9AM-12PM",
+      "status": "pending",
+      "id": "zcvF1df"
+    }
+  ]
+}
